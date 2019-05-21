@@ -515,9 +515,12 @@ $breakpoint argument choices:
 ORDER:  Base + Typography + General Layout + Grid > Page Layout > Componenets
 */
 :root {
-  --color-primary: #eb2f64;
-  --color-primary-light: #FF3366;
-  --color-primary-dark: #BA265D;
+  --color-primary: #c69963;
+  --color-primary-dark: #b28451;
+  --color-secondary: #101d2c;
+  --color-crimson: #eb2f64;
+  --color-crimson-light: #FF3366;
+  --color-crimson-dark: #BA265D;
   --color-beige-light: #FFDEDA;
   --color-beige-dark: #FF9C91;
   --color-beige-darker: #ff6f74;
@@ -535,16 +538,19 @@ ORDER:  Base + Typography + General Layout + Grid > Page Layout > Componenets
   --color-orange-dark: #ff7730;
   --color-blue-light: #2998ff;
   --color-blue-dark: #5643fa;
-  --color-gray-dark: #999;
-  --color-gray-dark-2: #777;
+  --color-gray-dark-1: #54483a;
+  --color-gray-dark-2: #6d5d4b;
   --color-gray-dark-3: #333;
   --color-white: #fff;
   --color-black: #000;
-  --color-gray-light-1: #faf9f9;
-  --color-gray-light-2: #f4f2f2;
+  --color-gray-light-1: #f9f7f6;
+  --color-gray-light-2: #aaa;
   --color-gray-light-3: #f0eeee;
   --color-gray-light-4: #ccc;
   --default-font-size: 1.6rem;
+  --line: 1px solid var(--color-gray-light-2);
+  --shadow-dark: 0 2rem 6rem rgba(0,0,0,.3);
+  --shadow-light: 0 2rem 5rem rgba(0,0,0,.06);
   --grid_width: 114rem;
   --gutter-vertical: 8rem;
   --gutter-vertical-small: 6rem;
