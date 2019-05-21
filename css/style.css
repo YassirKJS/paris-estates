@@ -827,13 +827,18 @@ ORDER:  Base + Typography + General Layout + Grid > Page Layout > Componenets
   background-color: var(--color-primary);
   display: grid;
   grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
-  grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end]; }
-  .container > * {
+  grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
+  /*& > * {
     font-size: 3rem;
-    padding: 40px; }
+    padding: 40px;
+  }*/ }
 
 .features {
-  grid-column: center-start / center-end; }
+  grid-column: center-start / center-end;
+  margin: 15rem 0;
+  display: grid;
+  grid-gap: 6rem;
+  grid-template-columns: repeat(3, 1fr); }
 
 .footer {
   background-color: var(--color-secondary);
