@@ -1,6 +1,6 @@
 .container {
   background-color: var(--color-primary);
-  color: white;
-  max-width: 120rem;
-  min-height: 50rem;
+
+  display: grid;
+  grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
 }
