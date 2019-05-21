@@ -2,9 +2,18 @@
 
 .u-center-text { text-align: center !important;}
 
-.u-margin-bottom-small { margin-bottom: 1rem !important; }
+//MARGIN BOTTOM
+.mb-sm { margin-bottom: 2rem !important; }
 
-.u-margin-bottom-medium {
+.mb-md {
+  margin-bottom: 3rem !important;
+
+  @include respond(tab-port) {
+    margin-bottom: 2rem;
+  }
+}
+
+.mb-lg {
   margin-bottom: 4rem !important;
 
   @include respond(tab-port) {
@@ -12,7 +21,7 @@
   }
 }
 
-.u-margin-bottom-big {
+.mb-hg {
   margin-bottom: 8rem !important;
 
   @include respond(tab-port) {
@@ -20,5 +29,6 @@
   }
 }
 
-.u-margin-top-big { margin-top: 8rem !important; }
-.u-margin-top-huge { margin-top: 10rem !important; }
+//MARGIN TOP
+.mt-bg { margin-top: 8rem !important; }
+.mt-hg { margin-top: 10rem !important; }

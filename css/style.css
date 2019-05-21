@@ -796,26 +796,50 @@ ORDER:  Base + Typography + General Layout + Grid > Page Layout > Componenets
 .u-center-text {
   text-align: center !important; }
 
-.u-margin-bottom-small {
-  margin-bottom: 1rem !important; }
+.mb-sm {
+  margin-bottom: 2rem !important; }
 
-.u-margin-bottom-medium {
+.mb-md {
+  margin-bottom: 3rem !important; }
+  @media (max-width: 56.25em) {
+    .mb-md {
+      margin-bottom: 2rem; } }
+
+.mb-lg {
   margin-bottom: 4rem !important; }
   @media (max-width: 56.25em) {
-    .u-margin-bottom-medium {
+    .mb-lg {
       margin-bottom: 3rem; } }
 
-.u-margin-bottom-big {
+.mb-hg {
   margin-bottom: 8rem !important; }
   @media (max-width: 56.25em) {
-    .u-margin-bottom-big {
+    .mb-hg {
       margin-bottom: 5rem; } }
 
-.u-margin-top-big {
+.mt-bg {
   margin-top: 8rem !important; }
 
-.u-margin-top-huge {
+.mt-hg {
   margin-top: 10rem !important; }
+
+.container {
+  background-color: var(--color-primary);
+  color: white;
+  max-width: 120rem;
+  min-height: 50rem; }
+
+.footer {
+  background-color: var(--color-secondary); }
+
+.gallery {
+  background-color: var(--color-gray-light-1); }
+
+.header {
+  background-color: var(--color-gray-dark-1); }
+
+.realtors {
+  background-color: var(--color-secondary); }
 
 /* replaced by _base.scss : root */
 /*
