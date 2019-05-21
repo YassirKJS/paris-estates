@@ -2,9 +2,33 @@
 @import "../abstracts/mixins";
 
 body {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  //font-size: 16px;
+  font-family: var(--font-primary); //"Montserrat", sans-serif;
+  font-weight: 300;
   line-height: 1.6;
   color: var(--color-gray-dark-2);
+}
+
+%heading {
+  font-family: var(--font-display);
+  font-weight: 400;
+}
+
+.heading-1 {
+  @extend %heading;
+}
+
+.heading-2 {
+  @extend %heading;
+}
+
+.heading-3 {
+  @extend %heading;
+}
+
+.heading-4 {
+  @extend %heading;
+  font-size: 1.9rem;
+
+  &--light { color: var(--color-grey-light-1); }
+  &--dark { color: var(--color-grey-dark-1); }
 }
