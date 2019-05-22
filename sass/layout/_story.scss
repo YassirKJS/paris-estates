@@ -1,9 +1,13 @@
 .story {
   &__pictures {
     background-color: var(--color-primary);
-    grid-column: full-start / col-end 4;
+    grid-column: full-start / col-end 4;z-index: 10;
 
-    background-image: linear-gradient(rgba(var(--color-primary), .5), rgba(var(--color-primary), .5)), url(../../img/back.jpg);
+    background-image: linear-gradient(
+                    to right,
+                    rgba(#c69963, .4),
+                    rgba(#b28451, .4)),
+                    url(../../img/back.jpg);
     background-size: cover;
 
     display: grid;
@@ -29,6 +33,7 @@
   }
 
   &__img {
+    border-radius: 5px;
     transition: all .7s;
 
     &:hover {
