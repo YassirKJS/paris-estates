@@ -902,7 +902,7 @@ ORDER:  Base + Typography + General Layout + Grid > Page Layout > Componenets
 .footer {
   background-color: var(--color-secondary);
   grid-column: full-start / full-end;
-  padding: 8rem; }
+  padding: 6rem 6rem 2rem 6rem; }
 
 .nav {
   list-style: none;

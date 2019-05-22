@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3a7f694a-3fc7-402d-9c74-6cbeba382a0e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/layout/_features.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/layout/_features.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/layout/_sidebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/layout/_sidebar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/layout/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/layout/_footer.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -59,7 +57,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/layout/_sidebar.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="648">
@@ -77,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/layout/_footer.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+            <state relative-caret-position="72">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -114,12 +112,12 @@
         <option value="$PROJECT_DIR$/sass/layout/_story.scss" />
         <option value="$PROJECT_DIR$/sass/layout/_gallery.scss" />
         <option value="$PROJECT_DIR$/sass/layout/_homes.scss" />
-        <option value="$PROJECT_DIR$/sass/layout/_footer.scss" />
         <option value="$PROJECT_DIR$/sass/layout/_header.scss" />
         <option value="$PROJECT_DIR$/sass/layout/_realtors.scss" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/sass/layout/_features.scss" />
         <option value="$PROJECT_DIR$/sass/layout/_sidebar.scss" />
+        <option value="$PROJECT_DIR$/sass/layout/_footer.scss" />
       </list>
     </option>
   </component>
@@ -236,12 +234,12 @@
       <option name="presentableId" value="Default" />
       <updated>1558435348162</updated>
       <workItem from="1558435350397" duration="16015000" />
-      <workItem from="1558516224652" duration="30130000" />
+      <workItem from="1558516224652" duration="30335000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46145000" />
+    <option name="totallyTimeSpent" value="46350000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="945" y="0" width="982" height="1047" extended-state="0" />
@@ -356,13 +354,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/layout/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/layout/_container.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -416,6 +407,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
           <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="28" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/layout/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
         </state>
       </provider>
     </entry>
